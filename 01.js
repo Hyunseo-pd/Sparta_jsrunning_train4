@@ -62,5 +62,5 @@ const tutee = new Tutee('준현', '12000', 'javascript');
 tutee.info();
 
 // 6
-// console.log(Student classof Person);
-console.log(tutee instanceof Student)
+console.log(Student.prototype instanceof Person);
+console.log(tutee instanceof Student);
